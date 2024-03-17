@@ -8,6 +8,9 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Todo {
+	public Todo() {
+		
+	}
 	
 	@Id
 	@GeneratedValue
